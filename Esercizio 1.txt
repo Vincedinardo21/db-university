@@ -1,2 +1,3 @@
 SELECT * 
-FROM `teachers`
+FROM `students` 
+WHERE `date_of_birth` LIKE '1990%'
