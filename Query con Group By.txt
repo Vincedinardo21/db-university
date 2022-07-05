@@ -15,3 +15,9 @@ GROUP BY `office_address`
 SELECT `exam_id`, ROUND(AVG(vote), 0)
 FROM `exam_student` 
 GROUP BY `exam_id`
+
+--QUERY 4--
+
+SELECT `department_id`, COUNT(`id`)
+FROM `degrees` 
+GROUP BY `department_id`
